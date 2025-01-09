@@ -32,6 +32,14 @@
             <input type="submit" value="送信" onclick="send()">
 
             <script>
+                function quse(){
+                    if(window.confirm("申し込みできますか？")){
+                        ;
+                }else{
+                    send();
+                }
+            }
+            
                 function send(){
                     alert("できませんでした")
                 }
